@@ -3,28 +3,28 @@
 class CosecCli < Formula
   desc "CoSec Shield CLI: SBOM upload + CI gate, threat cases, audit file verification, MCP bridge"
   homepage "https://github.com/epicprosmart-info/cosec-cli"
-  version "1.0.0-rc.2"
+  version "1.0.0-rc.3"
   license :cannot_represent # proprietary — https://github.com/epicprosmart-info/cosec-cli/blob/main/LICENSE.md
 
   on_macos do
     on_arm do
-      url "https://github.com/epicprosmart-info/cosec-cli/releases/download/v1.0.0-rc.2/cosec-cli_v1.0.0-rc.2_darwin_arm64.tar.gz"
-      sha256 "dae46e52ffe710824c9292ce54d843dcaa276a71fdc853ae4ca6cee968f592a2"
+      url "https://github.com/epicprosmart-info/cosec-cli/releases/download/v1.0.0-rc.3/cosec-cli_v1.0.0-rc.3_darwin_arm64.tar.gz"
+      sha256 "6a18beab135b2a3f341bec0cc71af2e626ec7f16b231c4eafca6bd1c2cf1ba3a"
     end
     on_intel do
-      url "https://github.com/epicprosmart-info/cosec-cli/releases/download/v1.0.0-rc.2/cosec-cli_v1.0.0-rc.2_darwin_amd64.tar.gz"
-      sha256 "c0340fd4d106fd4e9f666b0ccd1e6cdefcc2f36b56ab3fd9987ecf570e8de8d3"
+      url "https://github.com/epicprosmart-info/cosec-cli/releases/download/v1.0.0-rc.3/cosec-cli_v1.0.0-rc.3_darwin_amd64.tar.gz"
+      sha256 "acb66cd45d4583a0c2568502b682a2ba17db7fe957cdafc443e70221b0513144"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/epicprosmart-info/cosec-cli/releases/download/v1.0.0-rc.2/cosec-cli_v1.0.0-rc.2_linux_arm64.tar.gz"
-      sha256 "b23fb2ed0a6bef49d9caa8081d66e90c5084a01f34e88a61652eb5f2db62ba1b"
+      url "https://github.com/epicprosmart-info/cosec-cli/releases/download/v1.0.0-rc.3/cosec-cli_v1.0.0-rc.3_linux_arm64.tar.gz"
+      sha256 "e0b62053993bf41a8c96e9f5574098672adf12c3ef399a7cbe92f96095fb28fe"
     end
     on_intel do
-      url "https://github.com/epicprosmart-info/cosec-cli/releases/download/v1.0.0-rc.2/cosec-cli_v1.0.0-rc.2_linux_amd64.tar.gz"
-      sha256 "a0de8c0da8b6d173d81a967564da395074cc7214abb0784b061faecd8913d979"
+      url "https://github.com/epicprosmart-info/cosec-cli/releases/download/v1.0.0-rc.3/cosec-cli_v1.0.0-rc.3_linux_amd64.tar.gz"
+      sha256 "65a7535a7a3ae7a7420d8559f23ba62f8099b7ecec84a29de67630667b5037a5"
     end
   end
 
